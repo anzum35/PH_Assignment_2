@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* Font Added */
+
+body{
+    background-color: black;
+}
+.display-flex{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+.container{
+    max-width:80%;
+    margin: 0 auto;
+    background: linear-gradient(180.00deg, rgb(6, 5, 5),rgba(12, 12, 12, 0) 100%);
+}
+
+
+.nav-bar{
+    /* justify-content: space-between; */
+}
+.brand-name{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 2.2rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.list-style{
+    list-style: none;
+    margin-right: 30px;
+}
+.link-style{
+    text-decoration: none;
+    color: rgb(256, 255, 255);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.border-box{
+    height: 2.8rem ;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+
+}
+
+.primary-btn-1{
+    font-size: 1.2rem;
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    border: none;
+}
+.primary-btn-2{
+    font-size: 1.2rem;
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+    
+}
+
+.banner-details{
+    max-width: 520px;
+    margin-top: 50px;
+}
+.banner-heading{
+    color: rgb(255, 255, 255);;
+    font-family: Inter;
+    font-size: 4.8rem;
+    font-weight: 900;
+}
+.para-style{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+.sticker-1{
+
+    margin-top: -70px;
+
+}
+
+.sticker-2{
+    margin-top: -350px;
+    margin-left: 250px;
+}
